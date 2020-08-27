@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<title> Assignment </title>
+<meta charset="utf-8">
+<style type="text/css">
+section.content1,.content2,.content3
+	{
+		background-color: pink;
+		border:4px solid black;
+		text-decoration-color: blue;
+		box-sizing: border-box;
+		margin-bottom: 15px;
+	}
+	div#boxh1,#boxh2,#boxh3
+	{
+		border-left: 2px solid red;
+		border-bottom: 2px solid red;
+		background-color: orange;
+		box-sizing: border-box;
+		margin-left: 80%;
+		font-size: 120%;
+		text-align: center;
+		text-decoration-color: blue;
+		position:static;
+	
+		}
+		@media (min-width:1200px)
+		{
+			.content1,.content2,.content3
+			{ float:left;
+			width: 100%;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px)
+		{
+		.content1,.content2,.content3
+		{
+			float:left;
+		}
+		.content1{
+			position: static;
+			width:48%;
+			margin-right:2%;
+
+		}
+		.content2
+		{
+			position: static;
+			width:48%;
+			margin-left:2%;
+
+		}
+		.content3
+		{
+			width:100%;
+		}
+
+		}
+		@media (max-width:767Px)
+		{
+			.content1,.content2,.content3
+			{
+				float: left;
+				position: static;
+				width:100%;
+			}
+		}
+		h1 {
+			text-align: center;
+		}
+</style>
+</head>
+<body>
+<h1>our menu</h1>
+<section class="content1">
+	<div id="boxh1">Chicken</div>
+	<div>Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling, among many others, depending on its purpose. Since the latter half of the 20th century, prepared chicken has become a staple of fast food. Chicken is sometimes cited as being more healthful than red meat, with lower concentrations of cholesterol and saturated fat</div>
+	</section>
+	<section class="content2">
+	<div id="boxh2">Beef</div>
+	<div> First method to make simple beef curry is by using beef, onions and tomatoes. Pressure cooking the beef with these veggies and also combining with potatoes can make a delicious curry.Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of protein and nutrients.</div>
+	</section>
+<section class="content3">
+<div id="boxh3">sushi</div>
+<div>
+	Sushi is popular around the world, but that doesn't mean everyone understands what this dish technically is. For starters, sushi does not not always mean raw fish. Rather, it's that raw fish - sashimi in Japanese - is the most popular ingredient in sushi.Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat.
+</div>
+</section>
+
+
+</body>
+</html>
